@@ -1,0 +1,174 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+body,
+html {
+    padding: 0;
+    margin: 0;
+    opacity: 1;
+    background-attachment: fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    justify-content: center;
+    align-items: center;
+}
+
+.box select {
+    background-color: #0563af;
+    color: white;
+    margin-top: 15px;
+    padding: 12px;
+    width: 250px;
+    border: solid #bac4ff;
+    font-size: 20px;
+    box-shadow: 0 5px 25px rgba(0, 0, 0, 1);
+    -webkit-appearance: button;
+    appearance: button;
+    outline: none;
+    border-radius: 8px;
+}
+
+.box::before {
+    font-family: FontAwesome;
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 20%;
+    height: 100%;
+    text-align: center;
+    font-size: 28px;
+    line-height: 45px;
+    color: rgba(255, 255, 255, 0.5);
+    background-color: rgba(255, 255, 255, 0.1);
+    pointer-events: none;
+}
+
+.box:hover::before {
+    color: rgba(255, 255, 255, 0.6);
+    background-color: rgba(255, 255, 255, 0.2);
+}
+
+.box select option {
+    padding: 30px;
+}
+
+.principal {
+    text-align: center;
+}
+
+form {
+    border-radius: 2rem;
+    background-color: rgba(9, 63, 98, 0.3);
+    border: 5px solid rgba(38, 0, 255, 0.3);
+    width: 30%;
+    backdrop-filter: blur(10px);
+}
+
+form,
+input {
+    margin: 0 auto;
+    display: block;
+    padding: 1%;
+    font-family: 'Calibri Light';
+    font-size: 1.1rem;
+    color: rgb(0, 0, 0);
+    text-align: center;
+}
+
+input {
+    margin-top: 15px;
+    width: 65%;
+    border-radius: 8px;
+    background-color: #ffffff;
+    border: 5px solid #ffffff;
+    color: lightslategray;
+}
+
+header {
+    padding: 1rem;
+    text-align: center;
+    background-color: #00aeff;
+}
+
+form a {
+    text-align: center;
+    color: rgb(0, 251, 235);
+    font-size: 1rem;
+    float: right;
+    text-decoration: none;
+}
+
+ul {
+    display: block;
+    list-style-type: disc;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    padding-inline-start: 40px;
+}
+
+.navigation ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.navigation ul li {
+    /* uno al lado del otro */
+    display: inline-block;
+}
+
+
+/* los enlaces dentro del menu */
+
+.navigation ul li a {
+    color: white;
+    text-decoration: none;
+    display: block;
+    padding: 0.5rem 1rem;
+    transition: all 0.2s linear;
+    border-radius: 5px;
+}
+
+.navigation ul li a:hover {
+    background: #3d2ae9;
+}
+
+.cabecera {
+    margin: 0;
+    padding: 0%;
+    display: flex;
+    align-items: center;
+    width: 100%;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+p {
+    margin-right: 15px;
+    margin-bottom: 10px;
+    vertical-align: inherit;
+}
+
+button {
+    margin-top: 2%;
+    height: 3.5rem;
+    width: 9rem;
+    border-radius: 8px;
+    background-color: #7bdaff;
+    border: 5px solid #bac4ff;
+    transition: all 0.3s linear;
+}
+
+button:hover {
+    color: #bac4ff;
+    background-color: #00142c;
+    box-shadow: 0 0 10px #00e5ff, 0 0 40px #0073ff, 0 0 80px #00b7ff;
+}

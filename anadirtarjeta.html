@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Agregar Productos</title>
+    <link rel="icon" type="image/png" href="img/favicon.ico">
+    <link rel="stylesheet" href="css/AgProd.css">
+</head>
+
+<body background="img/Fondo.jpg">
+    <header>
+        <div class="cabecera">
+            <img src="img/corazon.png" class="logo">
+            <span>
+                <nav class="navigation">
+                <ul class="show">
+                    <li>
+                        <a href="Tarjetas.html">VOLVER</a>
+                    </li>
+                    <li>
+                        <a href="index.html">CERRAR SESIÓN</a>
+                    </li>
+                </ul>
+                </nav>
+            </span>
+        </div>
+    </header>
+
+    <div class="principal">
+        <br>
+        <form action="">
+            <h1>Agregar Tarjeta</h1>
+            <input type="number" placeholder="Numero de Tarjeta" name="NumTar" required>
+            <h3>Fecha de vencimiento</h3>
+            <input type="week" name="fven" required>
+            <input type="number" placeholder="Codigo de seguridad" name="Secod" required>
+            <div class="box">
+                <select>
+                <option selected disabled>Tipo de Tarjeta:</option>
+                <option value="1">Visa</option>
+                <option value="2">Mastercard</option>
+                <option value="3">American Express</option>
+                <option value="4">Debito</option>
+                <option value="5">HSBC</option>
+              </select>
+            </div>
+            <br>
+            <button onclick="AgregarE()">Agregar Tarjeta</button>
+        </form>
+    </div>
+</body>
+
+</html>

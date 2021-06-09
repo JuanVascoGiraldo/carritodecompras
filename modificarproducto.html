@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Modificar Productos</title>
+    <link rel="icon" type="image/png" href="img/favicon.ico">
+    <link rel="stylesheet" href="css/AgProd.css">
+</head>
+
+<body background="img/Fondo.jpg">
+    <header>
+        <div class="cabecera">
+            <img src="img/corazon.png" class="logo">
+            <span>
+                <nav class="navigation">
+                <ul class="show">
+                    <li>
+                        <a href="ProductosAdmin.html">VOLVER</a>
+                    </li>
+                    <li>
+                        <a href="index.html">CERRAR SESIÓN</a>
+                    </li>
+                </ul>
+                </nav>
+            </span>
+        </div>
+    </header>
+
+    <div class="principal">
+        <br>
+        <form action="">
+            <h1>Modificar producto</h1>
+
+            <div class="box">
+                <select>
+            <option selected disabled>Sabor:</option>
+            <option value="1">Netflix & Chilll'd</option>
+            <option value="2">Cherry Garcia</option>
+            <option value="3">Chocolate Chip Cookie Dough</option>
+            <option value="4">Chocolate Fudge Brownie</option>
+            <option value="5">Cunky Monkey</option>
+            <option value="6">Vainilla</option>
+          </select>
+            </div>
+            <div class="box">
+                <select>
+                <option selected disabled>Presentación:</option>
+                <option value="1">Envase</option>
+                <option value="2">Vaso Clasico</option>
+                <option value="3">Cono</option>
+                <option value="4">Copa Helada</option>
+                <option value="5">Malteada</option>
+              </select>
+            </div>
+            <div class="box">
+                <select>
+                <option selected disabled>Tamaño:</option>
+                <option value="1">Mini</option>
+                <option value="2">Mediano</option>
+                <option value="3">Grande</option>
+              </select>
+            </div>
+            <div class="box">
+                <select>
+                <option selected disabled>Descuento:</option>
+                <option value="1">Ninguno</option>
+                <option value="2">10%</option>
+                <option value="3">50%</option>
+                <option value="4">3x2</option>
+                <option value="5">2X1</option>
+              </select>
+            </div>
+            <input value="1" type="number" name="identificador" max="99999999" readonly="readonly">
+            <input type="number" placeholder="Precio(MXN)" name="Precio" required>
+            <input type="number" placeholder="Número de unidades disponibles(stock)" name="Stock" required>
+            <br>
+            <button onclick="AgregarE()">Modificar Producto</button>
+        </form>
+    </div>
+</body>
+
+</html>
