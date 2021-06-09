@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Añadir al carrito</title>
+    <link rel="icon" type="image/png" href="img/favicon.ico">
+    <link rel="stylesheet" href="css/AgProd.css">
+</head>
+
+<body background="img/Fondo.jpg">
+    <header>
+        <div class="cabecera">
+            <img src="img/corazon.png" class="logo">
+            <span>
+                <nav class="navigation">
+                <ul class="show">
+                    <li>
+                        <a href="Productosusuario.html">VOLVER</a>
+                    </li>
+                    <li>
+                        <a href="index.html">CERRAR SESIÓN</a>
+                    </li>
+                </ul>
+                </nav>
+            </span>
+        </div>
+    </header>
+
+    <div class="principal">
+        <br>
+        <form action="">
+            <h1>Agregar producto al carrito</h1>
+            <h3>ID:</h3>
+            <input value="1" type="number" name="identificador" max="99999999" readonly="readonly">
+            <h3>Precio:</h3>
+            <input value="1" type="number" name="Precio" max="99999999" readonly="readonly">
+            <h3>Stock:</h3>
+            <input value="1" type="number" name="stock" max="99999999" readonly="readonly">
+            <h3>¿Cuantas unidades quieres añadir a tu carrito?</h3>
+            <input type="number" placeholder="Cantidad deseada" name="cantidas" required>
+            <br>
+            <button onclick="AgregarE()">Agregar Producto</button>
+        </form>
+    </div>
+</body>
+
+</html>
