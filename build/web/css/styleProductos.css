@@ -1,0 +1,363 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body,
+html {
+    padding: 0;
+    margin: 0;
+    opacity: 1;
+    background-attachment: fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    justify-content: center;
+    align-items: center;
+}
+
+header {
+    background: #0475a1;
+    color: white;
+    width: 100%;
+    height: 15%;
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, .6);
+    margin-top: 0%;
+    padding: 0%;
+    right: 0;
+}
+
+.logo {
+    height: 70px;
+    padding: 10px;
+    width: auto;
+    margin-left: 15px;
+}
+
+.cabecera {
+    margin: 0;
+    padding: 0%;
+    display: flex;
+    align-items: center;
+    height: 10%;
+    width: 100%;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+footer {
+    position: fixed;
+    bottom: 0px;
+    left: 0;
+    width: 100%;
+    background-color: #212121;
+    color: #fff;
+    text-align: right;
+    font-family: 'Calibri Light';
+    font-size: 1.5rem;
+    display: block;
+}
+
+ul {
+    display: block;
+    list-style-type: disc;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    padding-inline-start: 40px;
+}
+
+.navigation ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.navigation ul li {
+    /* uno al lado del otro */
+    display: inline-block;
+}
+
+
+/* los enlaces dentro del menu */
+
+.navigation ul li a {
+    color: white;
+    text-decoration: none;
+    display: block;
+    padding: 0.5rem 1rem;
+    transition: all 0.2s linear;
+    border-radius: 5px;
+}
+
+.navigation ul li a:hover {
+    background: #3927e2;
+}
+
+p {
+    margin-right: 15px;
+    margin-bottom: 10px;
+    vertical-align: inherit;
+}
+
+.center {
+    text-align: center;
+}
+
+.contenedor {
+    color: #FFF;
+    width: 250px;
+    border-radius: 8px;
+    border: 1px solid rgb(4, 27, 10);
+    background-color: #023d00c7;
+    text-align: center;
+    margin-left: 2rem;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    display: inline-block;
+    backdrop-filter: blur(10px);
+    transition: all 0.3s linear;
+}
+
+.contenedor:hover {
+    box-shadow: 0 0 10px #c4ff77, 0 0 40px #057401, 0 0 80px #33ff00;
+}
+
+.contenedor2 {
+    color: white;
+    width: 250px;
+    border-radius: 8px;
+    border: 1px solid black;
+    background-color: #ff000083;
+    text-align: center;
+    margin-left: 2rem;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    display: inline-block;
+    backdrop-filter: blur(10px);
+    transition: all 0.3s linear;
+}
+
+.contenedor2:hover {
+    box-shadow: 0 0 10px #fb8ccd, 0 0 40px #ff00c8, 0 0 80px #d773ff;
+}
+
+h3 {
+    padding: 5px;
+}
+
+h1 {
+    background-color: #001b2f98;
+    color: #adf7ff;
+    backdrop-filter: blur(10px);
+}
+
+.btn-neon {
+    justify-content: center;
+    position: relative;
+    display: inline-block;
+    padding: 15px 30px;
+    color: rgb(0, 0, 0);
+    background-color: rgba(51, 91, 200, 0.52);
+    letter-spacing: 4px;
+    text-decoration: none;
+    font-size: 24px;
+    overflow: hidden;
+    transition: 0.2s;
+    backdrop-filter: blur(10px);
+}
+
+.btn-neon:hover {
+    background: #10bccc;
+    box-shadow: 0 0 10px #00e5ff, 0 0 40px #0073ff, 0 0 80px #00b7ff;
+    transition-delay: 1s;
+}
+
+.btn-neon span {
+    position: absolute;
+    display: block;
+}
+
+#span1 {
+    top: 0;
+    left: -100%;
+    width: 100%;
+    height: 2px;
+    background: linear-gradient(90deg, transparent, #012b62);
+}
+
+.btn-neon:hover #span1 {
+    left: 100%;
+    transition: 1s;
+}
+
+#span3 {
+    bottom: 0;
+    right: -100%;
+    width: 100%;
+    height: 2px;
+    background: linear-gradient(270deg, transparent, #012b62);
+}
+
+.btn-neon:hover #span3 {
+    right: 100%;
+    transition: 1s;
+    transition-delay: 0.5s;
+}
+
+#span2 {
+    top: -100%;
+    right: 0;
+    width: 2px;
+    height: 100%;
+    background: linear-gradient(180deg, transparent, #012b62);
+}
+
+.btn-neon:hover #span2 {
+    top: 100%;
+    transition: 1s;
+    transition-delay: 0.25s;
+}
+
+#span4 {
+    bottom: -100%;
+    left: 0;
+    width: 2px;
+    height: 100%;
+    background: linear-gradient(360deg, transparent, #012b62);
+}
+
+.btn-neon:hover #span4 {
+    bottom: 100%;
+    transition: 1s;
+    transition-delay: 0.75s;
+}
+
+.centrar {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.principal {
+    text-align: center;
+}
+
+.creditos {
+    text-align: center;
+}
+
+form,
+input {
+    margin: 0 auto;
+    display: block;
+    padding: 2%;
+    font-family: 'Calibri Light';
+    font-size: 1.1rem;
+    color: lightslategray;
+    text-align: center;
+}
+
+input {
+    width: 90%;
+    border-radius: 2rem;
+    background-color: #ffffff;
+    border: 5px solid #ffffff;
+    color: lightslategray;
+}
+
+form {
+    border-radius: 2rem;
+    background-color: rgba(34, 66, 64, .3);
+    border: 5px solid rgba(34, 66, 64, .3);
+    width: 25%;
+}
+
+form a {
+    color: rgb(34, 66, 64);
+    font-size: 1rem;
+    float: center;
+    text-decoration: none;
+}
+
+form a:hover {
+    text-decoration: underline;
+}
+
+.btn {
+    border: 3px solid rgba(100, 100, 100, .1);
+    padding: 20px;
+    width: 200px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+    border-radius: 8px;
+    cursor: pointer;
+    color: #FFF;
+    background-size: 300%;
+    transition: 0.5s;
+}
+
+.btn:hover {
+    background-color: #0563af;
+    width: 250px;
+}
+
+.btn1 {
+    background-color: #012b62;
+}
+
+.sombreado {
+    border-radius: 15px;
+    background-color: rgba(255, 255, 255, 0.363);
+}
+
+.box select {
+    background-color: #0563af;
+    color: white;
+    margin-top: 15px;
+    padding: 12px;
+    width: 250px;
+    border: solid #bac4ff;
+    font-size: 20px;
+    box-shadow: 0 5px 25px rgba(0, 0, 0, 1);
+    -webkit-appearance: button;
+    appearance: button;
+    outline: none;
+    border-radius: 8px;
+}
+
+.box::before {
+    font-family: FontAwesome;
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 20%;
+    height: 100%;
+    text-align: center;
+    font-size: 28px;
+    line-height: 45px;
+    color: rgba(255, 255, 255, 0.5);
+    background-color: rgba(255, 255, 255, 0.1);
+    pointer-events: none;
+}
+
+.box:hover::before {
+    color: rgba(255, 255, 255, 0.6);
+    background-color: rgba(255, 255, 255, 0.2);
+}
+
+.box select option {
+    padding: 30px;
+}
+
+.box {
+    margin: 10px;
+}
+
+.center2 {
+    backdrop-filter: blur(10px);
+}
