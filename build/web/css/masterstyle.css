@@ -1,0 +1,405 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body,
+html {
+    padding: 0;
+    margin: 0;
+    opacity: 1;
+    background-attachment: fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+header {
+    background: #0475a1;
+    color: white;
+    width: 100%;
+    height: 15%;
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, .6);
+    margin-top: 0%;
+    padding: 0%;
+    right: 0;
+}
+
+.logo {
+    height: 70px;
+    padding: 10px;
+    width: auto;
+    margin-left: 15px;
+}
+
+.cabecera {
+    margin: 0;
+    padding: 0%;
+    display: flex;
+    align-items: center;
+    height: 10%;
+    width: 100%;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+footer {
+    position: fixed;
+    bottom: 0px;
+    left: 0;
+    width: 100%;
+    background-color: #57a1cd;
+    color: #ffffff;
+    text-align: right;
+    font-family: 'Calibri Light';
+    font-size: 1.5rem;
+    display: block;
+}
+
+.principal {
+    display: flex;
+    justify-content: center;
+}
+
+ul {
+    display: block;
+    list-style-type: disc;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    padding-inline-start: 40px;
+}
+
+.navigation ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.navigation ul li {
+    /* uno al lado del otro */
+    display: inline-block;
+}
+
+
+/* los enlaces dentro del menu */
+
+.navigation ul li a {
+    color: white;
+    text-decoration: none;
+    display: block;
+    padding: 0.5rem 1rem;
+    transition: all 0.2s linear;
+    border-radius: 5px;
+}
+
+.navigation ul li a:hover {
+    background: #7569e2;
+}
+
+p {
+    margin-right: 15px;
+    margin-bottom: 10px;
+    vertical-align: inherit;
+}
+
+.alfa {
+    border: 1px;
+    padding: 55px;
+    border-radius: 50px 50px 50px 50px;
+    background: #57a1cd;
+    justify-content: center;
+    text-align: center;
+    margin-left: 10px;
+}
+
+.beta {
+    font-family: cursive;
+    padding: 50px;
+    background-color: rgba(233, 213, 213, .384);
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, .6);
+    ;
+    border-radius: 50px 50px 50px 50px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.gama {
+    font-size: 50px;
+}
+
+.delta {
+    font-size: 3.5rem;
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+}
+
+.cotenedor {
+    width: 95%;
+}
+
+.TextoSombreadomamalon1 {
+    width: 100%;
+    text-align: center;
+    vertical-align: middle;
+    background-color: #57a2cdd0;
+}
+
+h1 {
+    font-family: 'Pacifico', cursive;
+    color: rgb(255, 255, 255);
+}
+
+form,
+input {
+    margin: 0 auto;
+    display: block;
+    padding: 2%;
+    font-family: 'Calibri Light';
+    font-size: 1.1rem;
+    color: lightslategray;
+    text-align: center;
+}
+
+input {
+    width: 90%;
+    border-radius: 2rem;
+    background-color: #ffffff;
+    border: 5px solid #ffffff;
+    color: lightslategray;
+}
+
+form {
+    border-radius: 2rem;
+    background-color: rgba(34, 66, 64, .3);
+    border: 5px solid rgba(34, 66, 64, .3);
+    width: 25%;
+}
+
+form a {
+    color: rgb(34, 66, 64);
+    font-size: 1rem;
+    float: right;
+    text-decoration: none;
+}
+
+form a:hover {
+    text-decoration: underline;
+}
+
+
+/*
+button{
+    margin-top: 2rem ;
+    padding: 2%;
+    border-radius:2rem;
+    background-color: #ffffff;
+    border: 5px solid #ffffff;
+}
+button:hover{
+    -webkit-box-shadow: 5px 5px 15px 5px #FF8080, -9px 5px 15px 5px #FFE488, -7px -5px 15px 5px #8CFF85, 12px -5px 15px 5px #80C7FF, 12px 10px 15px 7px #E488FF, -10px 10px 15px 7px #FF616B, -10px -7px 27px 1px #8E5CFF, 5px 5px 15px 5px rgba(0,0,0,0); 
+    box-shadow: 3px 3px 15px 5px #FF8080, -7px 3px 15px 5px #FFE488, -5px -3px 15px 5px #8CFF85, 10px -3px 15px 5px #80C7FF, 10px 8px 15px 7px #E488FF, -8px 8px 15px 7px #FF616B, -8px -5px 27px 1px #8E5CFF, 3px 3px 15px 5px rgba(0,0,0,0);
+}
+*/
+
+.button-container-1 {
+    position: relative;
+    height: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    overflow: hidden;
+    border: 1px solid;
+    font-family: Lato, sans-serif;
+    font-weight: 300;
+    font-size: 20px;
+    transition: .5s;
+    letter-spacing: 1px
+}
+
+.button-container-1 button {
+    width: 101%;
+    height: 100%;
+    font-family: Lato, sans-serif;
+    font-weight: 300;
+    font-size: 20px;
+    letter-spacing: 1px;
+    background: rgb(37, 34, 83);
+    -webkit-mask: url(https://raw.githubusercontent.com/robin-dela/css-mask-animation/master/img/nature-sprite.png);
+    mask: url(https://raw.githubusercontent.com/robin-dela/css-mask-animation/master/img/nature-sprite.png);
+    -webkit-mask-size: 2300% 100%;
+    mask-size: 2300% 100%;
+    border: none;
+    color: rgb(255, 255, 255);
+    cursor: pointer;
+    -webkit-animation: ani2 .7s steps(22) forwards;
+    animation: ani2 .7s steps(22) forwards;
+}
+
+.button-container-1 button:hover {
+    -webkit-animation: ani .7s steps(22) forwards;
+    animation: ani .7s steps(22) forwards
+}
+
+.mas {
+    color: rgb(255, 255, 255);
+    background: rgb(31, 49, 90);
+    text-align: center;
+    width: 101%;
+    font-family: Lato, sans-serif;
+    font-weight: 300;
+    position: absolute;
+    font-size: 20px;
+    margin: 15px auto;
+    overflow: hidden
+}
+
+@-webkit-keyframes ani {
+    from {
+        -webkit-mask-position: 0 0;
+        mask-position: 0 0
+    }
+    to {
+        -webkit-mask-position: 100% 0;
+        mask-position: 100% 0
+    }
+}
+
+@keyframes ani {
+    from {
+        -webkit-mask-position: 0 0;
+        mask-position: 0 0
+    }
+    to {
+        -webkit-mask-position: 100% 0;
+        mask-position: 100% 0
+    }
+}
+
+@-webkit-keyframes ani2 {
+    from {
+        -webkit-mask-position: 100% 0;
+        mask-position: 100% 0
+    }
+    to {
+        -webkit-mask-position: 0 0;
+        mask-position: 0 0
+    }
+}
+
+@keyframes ani2 {
+    from {
+        -webkit-mask-position: 100% 0;
+        mask-position: 100% 0
+    }
+    to {
+        -webkit-mask-position: 0 0;
+        mask-position: 0 0
+    }
+}
+
+button.usu {
+    margin-top: 2rem;
+    padding: 2%;
+    border-radius: 2rem;
+    background-color: #ffffff;
+    border: 5px solid #ffffff;
+}
+
+button.usu:hover {
+    -webkit-box-shadow: 5px 5px 15px 5px #FF8080, -9px 5px 15px 5px #FFE488, -7px -5px 15px 5px #8CFF85, 12px -5px 15px 5px #80C7FF, 12px 10px 15px 7px #E488FF, -10px 10px 15px 7px #FF616B, -10px -7px 27px 1px #8E5CFF, 5px 5px 15px 5px rgba(0, 0, 0, 0);
+    box-shadow: 3px 3px 15px 5px #FF8080, -7px 3px 15px 5px #FFE488, -5px -3px 15px 5px #8CFF85, 10px -3px 15px 5px #80C7FF, 10px 8px 15px 7px #E488FF, -8px 8px 15px 7px #FF616B, -8px -5px 27px 1px #8E5CFF, 3px 3px 15px 5px rgba(0, 0, 0, 0);
+}
+
+.btn {
+    border: 3px solid rgba(100, 100, 100, .1);
+    margin-bottom: 20px;
+    padding: 20px;
+    width: 300px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+    border-radius: 8px;
+    cursor: pointer;
+    color: #FFF;
+    background-size: 300%;
+    transition: 4.5s;
+}
+
+.btn:hover {
+    background-position: right;
+}
+
+.btn1 {
+    background-image: linear-gradient(to left, #00B7DA, #161569, #00b7da);
+}
+
+.box select {
+    background-color: #0563af;
+    color: white;
+    margin-top: 15px;
+    padding: 12px;
+    width: 250px;
+    border: solid #bac4ff;
+    font-size: 20px;
+    box-shadow: 0 5px 25px rgba(0, 0, 0, 1);
+    -webkit-appearance: button;
+    appearance: button;
+    outline: none;
+    border-radius: 8px;
+}
+
+.box::before {
+    font-family: FontAwesome;
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 20%;
+    height: 100%;
+    text-align: center;
+    font-size: 28px;
+    line-height: 45px;
+    color: rgba(255, 255, 255, 0.5);
+    background-color: rgba(255, 255, 255, 0.1);
+    pointer-events: none;
+}
+
+.box:hover::before {
+    color: rgba(255, 255, 255, 0.6);
+    background-color: rgba(255, 255, 255, 0.2);
+}
+
+.box select option {
+    padding: 30px;
+}
+
+.aux {
+    border: 1px;
+    padding: 55px;
+    border-radius: 8px;
+    background: #0c18c8b9;
+    justify-content: center;
+    text-align: center;
+    margin-left: 10px;
+    backdrop-filter: blur(10px);
+}
+
+.aux2 {
+    backdrop-filter: blur(10px);
+}
+
+.Titule {
+    font-size: 5rem;
+    color: #002e41;
+}
+
+.center {
+    text-align: center;
+    width: 100%;
+}
